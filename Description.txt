@@ -1,0 +1,8 @@
+Description:
+ From the problem statement, the encoding behaviour is not clear when the offset is other than 1 an -1. 
+ So, assuming that for 0, the string should retain the same. 
+ And for offset value 2, all 'a' letters are replaced with 'c', 'b' with 'd', etc.
+ And for offset value -2, all 'a' letters are replaced with 'y', 'b' with 'z', etc.
+ And so on.
+ 
+ If the above assumption is wrong, just we need to add a condition to do nothing/retain the same string, in the first condition.
